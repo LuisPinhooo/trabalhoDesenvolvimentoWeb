@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e3f2fd; /* Cor de fundo suave azul claro */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden; /* Para evitar barra de rolagem */
+}
+
+.container {
+  background: #ffffff;
+  padding: 15px 20px; /* Reduzi o padding */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 330px; /* Largura reduzida */
+  font-size: 12px; /* Fonte ainda menor */
+}
+
+h1 {
+  font-size: 20px; /* Tamanho reduzido para o título */
+  margin-bottom: 15px;
+  color: #0d47a1; /* Azul mais escuro para o título */
+  font-family: 'Roboto', sans-serif;
+}
+
+label {
+  display: block;
+  margin: 8px 0 4px;
+  text-align: left;
+  color: #1565c0; /* Azul mais suave */
+  font-weight: 500;
+  font-size: 12px; /* Fonte ainda menor */
+}
+
+input, select {
+  width: 100%;
+  padding: 8px; /* Reduzi o padding */
+  margin-bottom: 10px;
+  border: 1px solid #90caf9; /* Bordas mais suaves em azul claro */
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 12px; /* Fonte ainda menor */
+  color: #1e3c72; /* Azul escuro para o texto */
+}
+
+button {
+  background-color: #1e88e5; /* Azul médio */
+  color: white;
+  border: none;
+  padding: 8px 12px; /* Reduzi o padding */
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 12px; /* Fonte menor */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1565c0; /* Azul escuro ao passar o mouse */
+}
+
+#resultado {
+  margin-top: 12px;
+  font-size: 14px; /* Fonte menor */
+  font-weight: bold;
+  color: #0d47a1; /* Azul mais escuro */
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#historico {
+  margin-top: 15px;
+  text-align: left;
+  color: #0d47a1;
+}
+
+#historico h2 {
+  font-size: 16px; /* Fonte reduzida */
+  font-weight: 600;
+}
+
+#listaHistorico {
+  list-style-type: none;
+  padding: 0;
+}
+
+#listaHistorico li {
+  background: #bbdefb; /* Azul muito suave para o histórico */
+  margin: 5px 0;
+  padding: 8px; /* Reduzi o padding */
+  border-radius: 5px;
+  border: 1px solid #90caf9;
+  font-size: 10px; /* Fonte ainda menor */
+}
